@@ -83,5 +83,17 @@
   <ItemGroup>
     <None Include="Resources\8041938-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-shape-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-network-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-about-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-help-25.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
