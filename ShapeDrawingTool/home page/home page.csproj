@@ -113,5 +113,14 @@
   <ItemGroup>
     <None Include="Resources\braille %281%291.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MinimizeBTN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MaximizeBTN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeBTN.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

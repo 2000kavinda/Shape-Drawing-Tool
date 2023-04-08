@@ -32,17 +32,23 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnMaximize = new System.Windows.Forms.Button();
+            this.buttonMinimize = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -72,11 +78,13 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.panel2.Controls.Add(this.panel5);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(211, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(589, 29);
             this.panel2.TabIndex = 1;
+            this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.OnMouseDown);
             // 
             // panel3
             // 
@@ -86,6 +94,26 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(102, 124);
             this.panel3.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Inter Black", 14F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(359, 102);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(347, 23);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Please select on option to continue";
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.btnClose);
+            this.panel5.Controls.Add(this.btnMaximize);
+            this.panel5.Controls.Add(this.buttonMinimize);
+            this.panel5.Location = new System.Drawing.Point(492, 2);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(96, 27);
+            this.panel5.TabIndex = 3;
             // 
             // button7
             // 
@@ -134,6 +162,45 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // btnClose
+            // 
+            this.btnClose.BackgroundImage = global::home_page.Properties.Resources.closeBTN;
+            this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.Location = new System.Drawing.Point(62, 2);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(20, 21);
+            this.btnClose.TabIndex = 2;
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnMaximize
+            // 
+            this.btnMaximize.BackgroundImage = global::home_page.Properties.Resources.MaximizeBTN;
+            this.btnMaximize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnMaximize.FlatAppearance.BorderSize = 0;
+            this.btnMaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMaximize.Location = new System.Drawing.Point(36, 2);
+            this.btnMaximize.Name = "btnMaximize";
+            this.btnMaximize.Size = new System.Drawing.Size(20, 21);
+            this.btnMaximize.TabIndex = 1;
+            this.btnMaximize.UseVisualStyleBackColor = true;
+            this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
+            // 
+            // buttonMinimize
+            // 
+            this.buttonMinimize.BackgroundImage = global::home_page.Properties.Resources.MinimizeBTN;
+            this.buttonMinimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonMinimize.FlatAppearance.BorderSize = 0;
+            this.buttonMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonMinimize.Location = new System.Drawing.Point(10, 2);
+            this.buttonMinimize.Name = "buttonMinimize";
+            this.buttonMinimize.Size = new System.Drawing.Size(20, 21);
+            this.buttonMinimize.TabIndex = 0;
+            this.buttonMinimize.UseVisualStyleBackColor = true;
+            this.buttonMinimize.Click += new System.EventHandler(this.buttonMinimize_Click);
             // 
             // button5
             // 
@@ -216,16 +283,6 @@
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Inter Black", 14F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(359, 102);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(347, 23);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Please select on option to continue";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -242,7 +299,9 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -264,6 +323,10 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Button btnMaximize;
+        private System.Windows.Forms.Button buttonMinimize;
     }
 }
 
