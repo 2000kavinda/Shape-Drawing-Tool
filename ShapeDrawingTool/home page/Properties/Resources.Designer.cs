@@ -73,6 +73,16 @@ namespace home_page.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap braille__1_ {
+            get {
+                object obj = ResourceManager.GetObject("braille (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_about_25 {
             get {
                 object obj = ResourceManager.GetObject("icons8-about-25", resourceCulture);
@@ -126,6 +136,46 @@ namespace home_page.Properties {
         internal static System.Drawing.Bitmap icons8_shape_25 {
             get {
                 object obj = ResourceManager.GetObject("icons8-shape-25", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_shapes_64__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-shapes-64 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_shapes_64__2_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-shapes-64 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shapes {
+            get {
+                object obj = ResourceManager.GetObject("shapes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shapes__1_ {
+            get {
+                object obj = ResourceManager.GetObject("shapes (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

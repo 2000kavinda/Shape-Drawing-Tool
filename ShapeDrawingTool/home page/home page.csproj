@@ -95,5 +95,20 @@
   <ItemGroup>
     <None Include="Resources\icons8-help-25.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-shapes-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-shapes-64 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shapes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shapes %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\braille %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
