@@ -9,3 +9,14 @@ C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\Paramete
 C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\ParameterForm\obj\Debug\ParameterForm.csproj.CoreCompileInputs.cache
 C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\ParameterForm\obj\Debug\ParameterForm.exe
 C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\ParameterForm\obj\Debug\ParameterForm.pdb
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\ParameterForm\bin\Debug\ParameterForm.exe.config
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\ParameterForm\bin\Debug\ParameterForm.exe
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\ParameterForm\bin\Debug\ParameterForm.pdb
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\ParameterForm\obj\Debug\ParameterForm.csproj.AssemblyReference.cache
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\ParameterForm\obj\Debug\ParameterForm.csproj.SuggestedBindingRedirects.cache
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\ParameterForm\obj\Debug\ParameterForm.Form1.resources
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\ParameterForm\obj\Debug\ParameterForm.Properties.Resources.resources
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\ParameterForm\obj\Debug\ParameterForm.csproj.GenerateResource.cache
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\ParameterForm\obj\Debug\ParameterForm.csproj.CoreCompileInputs.cache
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\ParameterForm\obj\Debug\ParameterForm.exe
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\ParameterForm\obj\Debug\ParameterForm.pdb
