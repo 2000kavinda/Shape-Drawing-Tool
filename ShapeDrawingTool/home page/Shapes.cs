@@ -30,7 +30,9 @@ namespace home_page
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Braille f3 = new Braille();
+            f3.Show();
+            this.Hide();
         }
 
         private void panel5_Paint(object sender, PaintEventArgs e)
@@ -94,6 +96,23 @@ namespace home_page
             Form1 f1 = new Form1();
             f1.Show();
             this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (panel6.Height == 190)
+            {
+                panel6.Height = 38;
+            }
+            else
+            {
+                panel6.Height = 190;
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
