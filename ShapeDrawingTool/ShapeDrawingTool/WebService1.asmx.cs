@@ -22,7 +22,7 @@ namespace ShapeDrawingTool
         {
             double pi = 3.14;
             double p = 2 * pi * r;
-            double c = p / g;
+            double c = p / (g * 2);
             return Math.Round(c);
         }
     }

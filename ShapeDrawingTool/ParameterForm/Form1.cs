@@ -25,6 +25,17 @@ namespace ParameterForm
             int b = Convert.ToInt32(textBox2.Text);
             double c = obj.Circle(a, b);
             MessageBox.Show("Dots count = " + c);
+
+            System.Drawing.Graphics gObj;
+            gObj = this.CreateGraphics();
+            Pen myPen = new Pen(System.Drawing.Color.Black, 5);
+            //myPen.DashStyle = System.Drawing.Drawing2D.DashStyle.Dot;
+            //Rectangle rectangle = new Rectangle(0,0,100,100);
+            //gObj.DrawRectangle(myPen, rectangle);
+            float[] dashPattern = new float[] { b, b };
+            myPen.DashPattern = dashPattern;
+            gObj.DrawEllipse(myPen, 200, 200, a * 2, a * 2);
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
