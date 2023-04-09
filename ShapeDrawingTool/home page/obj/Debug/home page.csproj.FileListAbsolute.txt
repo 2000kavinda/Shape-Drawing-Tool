@@ -9,3 +9,5 @@ C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\Shap
 C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.csproj.CoreCompileInputs.cache
 C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.exe
 C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.pdb
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.Shapes.resources
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.Braille.resources

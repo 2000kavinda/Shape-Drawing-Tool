@@ -11,9 +11,9 @@ using System.Runtime.InteropServices;
 
 namespace home_page
 {
-    public partial class Form1 : Form
+    public partial class Braille: Form
     {
-        public Form1()
+        public Braille()
         {
             InitializeComponent();
         }
@@ -85,14 +85,15 @@ namespace home_page
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Shapes f2= new Shapes();
+            Shapes f2 = new Shapes();
             f2.Show();
             this.Hide();
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 f1= new Form1();
+            Form1 f1 = new Form1();
             f1.Show();
             this.Hide();
         }
