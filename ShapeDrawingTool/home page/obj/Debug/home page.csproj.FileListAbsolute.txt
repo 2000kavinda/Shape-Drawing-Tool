@@ -11,3 +11,7 @@ C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\Shap
 C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.pdb
 C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.Shapes.resources
 C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.Braille.resources
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.AtoF.resources
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.GtoL.resources
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.MtoS.resources
+C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.TtoZ.resources
