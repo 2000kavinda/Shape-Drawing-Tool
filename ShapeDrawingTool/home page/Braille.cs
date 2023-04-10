@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 
 namespace home_page
 {
-    public partial class Braille: Form
+    public partial class Braille : Form
     {
         public Braille()
         {
@@ -37,7 +37,7 @@ namespace home_page
 
         private void panel5_Paint(object sender, PaintEventArgs e)
         {
-           
+
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -88,7 +88,7 @@ namespace home_page
             Shapes f2 = new Shapes();
             f2.Show();
             this.Hide();
-           
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -97,33 +97,6 @@ namespace home_page
             f1.Show();
             this.Hide();
         }
-
-        private void button7_Click_1(object sender, EventArgs e)
-        {
-            GtoL f5 = new GtoL();
-            f5.Show();
-            this.Hide();
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            AtoF f4 = new AtoF();
-            f4.Show();
-            this.Hide();
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            MtoS f6 = new MtoS();
-            f6.Show();
-            this.Hide();
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            TtoZ f7 = new TtoZ();
-            f7.Show();
-            this.Hide();
-        }
     }
 }
+

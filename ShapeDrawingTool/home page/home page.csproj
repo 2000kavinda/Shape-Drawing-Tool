@@ -46,35 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TtoZ.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TtoZ.Designer.cs">
-      <DependentUpon>TtoZ.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MtoS.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MtoS.Designer.cs">
-      <DependentUpon>MtoS.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GtoL.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GtoL.Designer.cs">
-      <DependentUpon>GtoL.cs</DependentUpon>
-    </Compile>
     <Compile Include="Braille.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Braille.Designer.cs">
       <DependentUpon>Braille.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AtoF.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AtoF.Designer.cs">
-      <DependentUpon>AtoF.cs</DependentUpon>
     </Compile>
     <Compile Include="Shapes.cs">
       <SubType>Form</SubType>
@@ -90,20 +66,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="TtoZ.resx">
-      <DependentUpon>TtoZ.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MtoS.resx">
-      <DependentUpon>MtoS.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GtoL.resx">
-      <DependentUpon>GtoL.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Braille.resx">
       <DependentUpon>Braille.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AtoF.resx">
-      <DependentUpon>AtoF.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Shapes.resx">
       <DependentUpon>Shapes.cs</DependentUpon>

@@ -284,6 +284,7 @@
             this.button6.Text = "Standard Shapes";
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Form1
             // 

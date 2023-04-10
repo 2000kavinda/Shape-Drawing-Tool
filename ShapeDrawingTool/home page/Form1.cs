@@ -42,7 +42,9 @@ namespace home_page
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            Braille f5 = new Braille();
+            f5.Show();
+            this.Hide();
         }
 
         private void buttonMinimize_Click(object sender, EventArgs e)
@@ -94,6 +96,13 @@ namespace home_page
         {
             Form1 f1= new Form1();
             f1.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Shapes f4 = new Shapes();
+            f4.Show();
             this.Hide();
         }
     }

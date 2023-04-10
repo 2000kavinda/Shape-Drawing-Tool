@@ -15,3 +15,16 @@ C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\Shap
 C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.GtoL.resources
 C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.MtoS.resources
 C:\Software architecture project\project git\2000kavinda\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.TtoZ.resources
+C:\Software architecture project\After creating text box\ShapeDrawingTool\home page\bin\Debug\home page.exe.config
+C:\Software architecture project\After creating text box\ShapeDrawingTool\home page\bin\Debug\home page.exe
+C:\Software architecture project\After creating text box\ShapeDrawingTool\home page\bin\Debug\home page.pdb
+C:\Software architecture project\After creating text box\ShapeDrawingTool\home page\obj\Debug\home page.csproj.AssemblyReference.cache
+C:\Software architecture project\After creating text box\ShapeDrawingTool\home page\obj\Debug\home page.csproj.SuggestedBindingRedirects.cache
+C:\Software architecture project\After creating text box\ShapeDrawingTool\home page\obj\Debug\home_page.Braille.resources
+C:\Software architecture project\After creating text box\ShapeDrawingTool\home page\obj\Debug\home_page.Shapes.resources
+C:\Software architecture project\After creating text box\ShapeDrawingTool\home page\obj\Debug\home_page.Form1.resources
+C:\Software architecture project\After creating text box\ShapeDrawingTool\home page\obj\Debug\home_page.Properties.Resources.resources
+C:\Software architecture project\After creating text box\ShapeDrawingTool\home page\obj\Debug\home page.csproj.GenerateResource.cache
+C:\Software architecture project\After creating text box\ShapeDrawingTool\home page\obj\Debug\home page.csproj.CoreCompileInputs.cache
+C:\Software architecture project\After creating text box\ShapeDrawingTool\home page\obj\Debug\home page.exe
+C:\Software architecture project\After creating text box\ShapeDrawingTool\home page\obj\Debug\home page.pdb
