@@ -1,0 +1,11 @@
+C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\BraileForm\bin\Debug\BraileForm.exe.config
+C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\BraileForm\bin\Debug\BraileForm.exe
+C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\BraileForm\bin\Debug\BraileForm.pdb
+C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\BraileForm\obj\Debug\BraileForm.csproj.AssemblyReference.cache
+C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\BraileForm\obj\Debug\BraileForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\BraileForm\obj\Debug\BraileForm.Form1.resources
+C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\BraileForm\obj\Debug\BraileForm.Properties.Resources.resources
+C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\BraileForm\obj\Debug\BraileForm.csproj.GenerateResource.cache
+C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\BraileForm\obj\Debug\BraileForm.csproj.CoreCompileInputs.cache
+C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\BraileForm\obj\Debug\BraileForm.exe
+C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\BraileForm\obj\Debug\BraileForm.pdb
