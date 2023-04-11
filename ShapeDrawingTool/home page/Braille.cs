@@ -8,11 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using home_page.ServiceReference1;
 
 namespace home_page
 {
     public partial class Braille : Form
     {
+        WebService1SoapClient obj;
         public Braille()
         {
             InitializeComponent();
@@ -20,7 +22,7 @@ namespace home_page
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            obj = new WebService1SoapClient();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -96,6 +98,18 @@ namespace home_page
             Form1 f1 = new Form1();
             f1.Show();
             this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            // Get the input text from the text box
+            string inputText = InputTextBox.Text;
+
+
+
+            // Set the output text to the braille letters
+            OutputTextBox.Text = obj.abc(inputText).ToString();
+
         }
     }
 }

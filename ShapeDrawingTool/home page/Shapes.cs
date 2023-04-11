@@ -114,5 +114,12 @@ namespace home_page
         {
 
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            circleparameters cp = new circleparameters();
+            cp.Show();
+            this.Hide();
+        }
     }
 }

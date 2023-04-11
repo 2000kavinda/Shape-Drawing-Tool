@@ -11,6 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterForm", "ParameterF
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "home page", "home page\home page.csproj", "{8DCE15F2-588E-4004-A2FC-C9F6F7F12356}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2795E31E-7C08-4E4D-BB29-F8BAF1A922E5} = {2795E31E-7C08-4E4D-BB29-F8BAF1A922E5}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BraileForm", "BraileForm\BraileForm.csproj", "{7D545BF1-CB82-4433-BF34-85967465A9F1}"
 	ProjectSection(ProjectDependencies) = postProject
