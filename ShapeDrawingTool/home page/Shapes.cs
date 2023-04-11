@@ -121,5 +121,26 @@ namespace home_page
             cp.Show();
             this.Hide();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            triangleparameters tp=new triangleparameters();
+            tp.Show();
+            this.Hide();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            rectangle rectangle=new rectangle();
+            rectangle.Show();
+            this.Hide();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            square sq = new square();
+            sq.Show();
+            this.Hide();
+        }
     }
 }

@@ -7,47 +7,34 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using home_page.Properties;
-using home_page.ServiceReference1;
 
 namespace home_page
 {
-    public partial class circleparameters : Form
+    public partial class square : Form
     {
-        WebService1SoapClient obj;
-        public circleparameters()
+        public square()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void circleparameters_Load(object sender, EventArgs e)
-        {
-            obj = new WebService1SoapClient();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            int a = Convert.ToInt32(textBox1.Text)*10;
 
-            int a = Convert.ToInt32(textBox1.Text);
-            int b = Convert.ToInt32(textBox2.Text);
-            double c = obj.Circle(a, b);
-            MessageBox.Show("Dots count = " + c);
-            
             System.Drawing.Graphics gObj;
             gObj = this.CreateGraphics();
             Pen myPen = new Pen(System.Drawing.Color.Black, 5);
             //myPen.DashStyle = System.Drawing.Drawing2D.DashStyle.Dot;
             //Rectangle rectangle = new Rectangle(0,0,100,100);
             //gObj.DrawRectangle(myPen, rectangle);
-            float[] dashPattern = new float[] { b, b };
+            float[] dashPattern = new float[] { 2, 2 };
             myPen.DashPattern = dashPattern;
-            gObj.DrawEllipse(myPen, 200, 200, a * 2, a * 2);
-            
+            gObj.DrawRectangle(myPen, 200, 200, a, a);
         }
     }
 }
