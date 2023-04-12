@@ -21,6 +21,48 @@ namespace home_page.ServiceReference1 {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Circle", ReplyAction="*")]
         System.Threading.Tasks.Task<double> CircleAsync(int r, int g);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Cvolume", ReplyAction="*")]
+        double Cvolume(int r, int g);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Cvolume", ReplyAction="*")]
+        System.Threading.Tasks.Task<double> CvolumeAsync(int r, int g);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Rectangle", ReplyAction="*")]
+        double Rectangle(int x, int y);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Rectangle", ReplyAction="*")]
+        System.Threading.Tasks.Task<double> RectangleAsync(int x, int y);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Rvolume", ReplyAction="*")]
+        double Rvolume(int x, int y);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Rvolume", ReplyAction="*")]
+        System.Threading.Tasks.Task<double> RvolumeAsync(int x, int y);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Square", ReplyAction="*")]
+        double Square(int x);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Square", ReplyAction="*")]
+        System.Threading.Tasks.Task<double> SquareAsync(int x);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Svolume", ReplyAction="*")]
+        double Svolume(int x);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Svolume", ReplyAction="*")]
+        System.Threading.Tasks.Task<double> SvolumeAsync(int x);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Triangle", ReplyAction="*")]
+        double Triangle(int a, int b, int c);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Triangle", ReplyAction="*")]
+        System.Threading.Tasks.Task<double> TriangleAsync(int a, int b, int c);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Tvolume", ReplyAction="*")]
+        double Tvolume(int a, int b, int c);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Tvolume", ReplyAction="*")]
+        System.Threading.Tasks.Task<double> TvolumeAsync(int a, int b, int c);
+        
         // CODEGEN: Generating message contract since element name inputText from namespace http://tempuri.org/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/abc", ReplyAction="*")]
         home_page.ServiceReference1.abcResponse abc(home_page.ServiceReference1.abcRequest request);
@@ -130,6 +172,62 @@ namespace home_page.ServiceReference1 {
         
         public System.Threading.Tasks.Task<double> CircleAsync(int r, int g) {
             return base.Channel.CircleAsync(r, g);
+        }
+        
+        public double Cvolume(int r, int g) {
+            return base.Channel.Cvolume(r, g);
+        }
+        
+        public System.Threading.Tasks.Task<double> CvolumeAsync(int r, int g) {
+            return base.Channel.CvolumeAsync(r, g);
+        }
+        
+        public double Rectangle(int x, int y) {
+            return base.Channel.Rectangle(x, y);
+        }
+        
+        public System.Threading.Tasks.Task<double> RectangleAsync(int x, int y) {
+            return base.Channel.RectangleAsync(x, y);
+        }
+        
+        public double Rvolume(int x, int y) {
+            return base.Channel.Rvolume(x, y);
+        }
+        
+        public System.Threading.Tasks.Task<double> RvolumeAsync(int x, int y) {
+            return base.Channel.RvolumeAsync(x, y);
+        }
+        
+        public double Square(int x) {
+            return base.Channel.Square(x);
+        }
+        
+        public System.Threading.Tasks.Task<double> SquareAsync(int x) {
+            return base.Channel.SquareAsync(x);
+        }
+        
+        public double Svolume(int x) {
+            return base.Channel.Svolume(x);
+        }
+        
+        public System.Threading.Tasks.Task<double> SvolumeAsync(int x) {
+            return base.Channel.SvolumeAsync(x);
+        }
+        
+        public double Triangle(int a, int b, int c) {
+            return base.Channel.Triangle(a, b, c);
+        }
+        
+        public System.Threading.Tasks.Task<double> TriangleAsync(int a, int b, int c) {
+            return base.Channel.TriangleAsync(a, b, c);
+        }
+        
+        public double Tvolume(int a, int b, int c) {
+            return base.Channel.Tvolume(a, b, c);
+        }
+        
+        public System.Threading.Tasks.Task<double> TvolumeAsync(int a, int b, int c) {
+            return base.Channel.TvolumeAsync(a, b, c);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]

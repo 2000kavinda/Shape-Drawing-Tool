@@ -17,6 +17,111 @@
           </s:sequence>
         </s:complexType>
       </s:element>
+      <s:element name="Cvolume">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="r" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="g" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CvolumeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CvolumeResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rectangle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="x" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="y" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RectangleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RectangleResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rvolume">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="x" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="y" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RvolumeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RvolumeResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Square">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="x" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SquareResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SquareResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Svolume">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="x" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SvolumeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SvolumeResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Triangle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="a" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="b" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="c" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TriangleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TriangleResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Tvolume">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="a" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="b" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="c" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TvolumeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TvolumeResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
       <s:element name="abc">
         <s:complexType>
           <s:sequence>
@@ -39,6 +144,48 @@
   <wsdl:message name="CircleSoapOut">
     <wsdl:part name="parameters" element="tns:CircleResponse" />
   </wsdl:message>
+  <wsdl:message name="CvolumeSoapIn">
+    <wsdl:part name="parameters" element="tns:Cvolume" />
+  </wsdl:message>
+  <wsdl:message name="CvolumeSoapOut">
+    <wsdl:part name="parameters" element="tns:CvolumeResponse" />
+  </wsdl:message>
+  <wsdl:message name="RectangleSoapIn">
+    <wsdl:part name="parameters" element="tns:Rectangle" />
+  </wsdl:message>
+  <wsdl:message name="RectangleSoapOut">
+    <wsdl:part name="parameters" element="tns:RectangleResponse" />
+  </wsdl:message>
+  <wsdl:message name="RvolumeSoapIn">
+    <wsdl:part name="parameters" element="tns:Rvolume" />
+  </wsdl:message>
+  <wsdl:message name="RvolumeSoapOut">
+    <wsdl:part name="parameters" element="tns:RvolumeResponse" />
+  </wsdl:message>
+  <wsdl:message name="SquareSoapIn">
+    <wsdl:part name="parameters" element="tns:Square" />
+  </wsdl:message>
+  <wsdl:message name="SquareSoapOut">
+    <wsdl:part name="parameters" element="tns:SquareResponse" />
+  </wsdl:message>
+  <wsdl:message name="SvolumeSoapIn">
+    <wsdl:part name="parameters" element="tns:Svolume" />
+  </wsdl:message>
+  <wsdl:message name="SvolumeSoapOut">
+    <wsdl:part name="parameters" element="tns:SvolumeResponse" />
+  </wsdl:message>
+  <wsdl:message name="TriangleSoapIn">
+    <wsdl:part name="parameters" element="tns:Triangle" />
+  </wsdl:message>
+  <wsdl:message name="TriangleSoapOut">
+    <wsdl:part name="parameters" element="tns:TriangleResponse" />
+  </wsdl:message>
+  <wsdl:message name="TvolumeSoapIn">
+    <wsdl:part name="parameters" element="tns:Tvolume" />
+  </wsdl:message>
+  <wsdl:message name="TvolumeSoapOut">
+    <wsdl:part name="parameters" element="tns:TvolumeResponse" />
+  </wsdl:message>
   <wsdl:message name="abcSoapIn">
     <wsdl:part name="parameters" element="tns:abc" />
   </wsdl:message>
@@ -50,6 +197,34 @@
       <wsdl:input message="tns:CircleSoapIn" />
       <wsdl:output message="tns:CircleSoapOut" />
     </wsdl:operation>
+    <wsdl:operation name="Cvolume">
+      <wsdl:input message="tns:CvolumeSoapIn" />
+      <wsdl:output message="tns:CvolumeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rectangle">
+      <wsdl:input message="tns:RectangleSoapIn" />
+      <wsdl:output message="tns:RectangleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rvolume">
+      <wsdl:input message="tns:RvolumeSoapIn" />
+      <wsdl:output message="tns:RvolumeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Square">
+      <wsdl:input message="tns:SquareSoapIn" />
+      <wsdl:output message="tns:SquareSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Svolume">
+      <wsdl:input message="tns:SvolumeSoapIn" />
+      <wsdl:output message="tns:SvolumeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Triangle">
+      <wsdl:input message="tns:TriangleSoapIn" />
+      <wsdl:output message="tns:TriangleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Tvolume">
+      <wsdl:input message="tns:TvolumeSoapIn" />
+      <wsdl:output message="tns:TvolumeSoapOut" />
+    </wsdl:operation>
     <wsdl:operation name="abc">
       <wsdl:input message="tns:abcSoapIn" />
       <wsdl:output message="tns:abcSoapOut" />
@@ -59,6 +234,69 @@
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="Circle">
       <soap:operation soapAction="http://tempuri.org/Circle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cvolume">
+      <soap:operation soapAction="http://tempuri.org/Cvolume" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rectangle">
+      <soap:operation soapAction="http://tempuri.org/Rectangle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rvolume">
+      <soap:operation soapAction="http://tempuri.org/Rvolume" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Square">
+      <soap:operation soapAction="http://tempuri.org/Square" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Svolume">
+      <soap:operation soapAction="http://tempuri.org/Svolume" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Triangle">
+      <soap:operation soapAction="http://tempuri.org/Triangle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tvolume">
+      <soap:operation soapAction="http://tempuri.org/Tvolume" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -80,6 +318,69 @@
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="Circle">
       <soap12:operation soapAction="http://tempuri.org/Circle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cvolume">
+      <soap12:operation soapAction="http://tempuri.org/Cvolume" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rectangle">
+      <soap12:operation soapAction="http://tempuri.org/Rectangle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rvolume">
+      <soap12:operation soapAction="http://tempuri.org/Rvolume" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Square">
+      <soap12:operation soapAction="http://tempuri.org/Square" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Svolume">
+      <soap12:operation soapAction="http://tempuri.org/Svolume" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Triangle">
+      <soap12:operation soapAction="http://tempuri.org/Triangle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tvolume">
+      <soap12:operation soapAction="http://tempuri.org/Tvolume" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>

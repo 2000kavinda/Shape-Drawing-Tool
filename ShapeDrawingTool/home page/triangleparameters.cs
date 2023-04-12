@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using home_page.Properties;
+using home_page.ServiceReference1;
 
 namespace home_page
 {
     public partial class triangleparameters : Form
     {
+        WebService1SoapClient obj;
         Graphics gr_graphics = default(Graphics);
         public triangleparameters()
         {
@@ -25,7 +28,7 @@ namespace home_page
 
         private void triangleparameters_Load(object sender, EventArgs e)
         {
-
+            obj = new WebService1SoapClient();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -33,6 +36,10 @@ namespace home_page
             int a = Convert.ToInt32(textBox1.Text);
             int b = Convert.ToInt32(textBox2.Text);
             int c = Convert.ToInt32(textBox3.Text);
+            double k= obj.Triangle(a, b, c);
+            double s= obj.Tvolume(a, b, c);
+
+            MessageBox.Show("Dots count = " + k + "v = " + s);
             /*Point[] pnt = new Point[3];
             pnt[0].X = Convert.ToInt32(textBox1.Text);
             pnt[0].Y = Convert.ToInt32(textBox2.Text);
@@ -55,6 +62,21 @@ namespace home_page
             float[] dashPattern = new float[] { 2, 2 };
             myPen.DashPattern = dashPattern;
             gObj.DrawPolygon(myPen,points);
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

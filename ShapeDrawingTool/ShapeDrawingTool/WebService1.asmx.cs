@@ -23,8 +23,75 @@ namespace ShapeDrawingTool
         {
             double pi = 3.14;
             double p = 2 * pi * r;
-            double c = p / (g * 2);
+            double c = p / g ;
             return Math.Round(c);
+            
+        }
+        [WebMethod]
+        public double Cvolume(int r, int g)
+        {
+            double pi = 3.14;
+            double h = 0.05;
+            double p = 2 * pi * r;
+            double c = p / g ;
+            double v = c*2 * pi * h * h * h / 3;
+            return v;
+            
+        }
+        [WebMethod]
+        public double Rectangle(int x, int y)
+        {
+            double p = 2 * (x+y) ;
+            double c = p / 2;
+            return Math.Round(c);
+
+        }
+        [WebMethod]
+        public double Rvolume(int x, int y)
+        {
+            double pi = 3.14;
+            double h = 0.05;
+            double p = 2 * (x + y);
+            double c = p / 2;
+            double v = c * 2 * pi * h * h * h / 3;
+            return v;
+
+        }
+        [WebMethod]
+        public double Square(int x)
+        {
+            double p = 4*x;
+            double c = p / 2;
+            return Math.Round(c);
+
+        }
+        [WebMethod]
+        public double Svolume(int x)
+        {
+            double pi = 3.14;
+            double h = 0.05;
+            double p = 4 * x;
+            double c = p / 2;
+            double v = c * 2 * pi * h * h * h / 3;
+            return v;
+
+        }
+        [WebMethod]
+        public double Triangle(int a, int b,int c)
+        {
+            double co = (a+b+c)/2;
+            return Math.Round(co);
+
+        }
+        [WebMethod]
+        public double Tvolume(int a, int b, int c)
+        {
+            double pi = 3.14;
+            double h = 0.05;
+            double co = (a + b + c) / 2;
+            double v = c * 2 * pi * h * h * h / 3;
+            return v;
+
         }
         [WebMethod]
         public String abc(string inputText)

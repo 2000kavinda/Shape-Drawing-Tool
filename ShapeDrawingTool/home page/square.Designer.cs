@@ -70,6 +70,7 @@
             this.Controls.Add(this.button1);
             this.Name = "square";
             this.Text = "square";
+            this.Load += new System.EventHandler(this.square_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

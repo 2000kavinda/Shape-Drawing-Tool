@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using home_page.Properties;
+using home_page.ServiceReference1;
+
 
 namespace home_page
 {
     public partial class square : Form
     {
+        WebService1SoapClient obj;
         public square()
         {
             InitializeComponent();
@@ -24,7 +28,10 @@ namespace home_page
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int a = Convert.ToInt32(textBox1.Text)*10;
+            int a = Convert.ToInt32(textBox1.Text);
+            double c = obj.Square(a);
+            double d = obj.Svolume(a);
+            MessageBox.Show("Dots count = " + c + "v = " + d);
 
             System.Drawing.Graphics gObj;
             gObj = this.CreateGraphics();
@@ -34,7 +41,12 @@ namespace home_page
             //gObj.DrawRectangle(myPen, rectangle);
             float[] dashPattern = new float[] { 2, 2 };
             myPen.DashPattern = dashPattern;
-            gObj.DrawRectangle(myPen, 200, 200, a, a);
+            gObj.DrawRectangle(myPen, 200, 200, a * 10, a * 10);
+        }
+
+        private void square_Load(object sender, EventArgs e)
+        {
+            obj = new WebService1SoapClient();
         }
     }
 }

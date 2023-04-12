@@ -36,8 +36,12 @@ namespace home_page
             int a = Convert.ToInt32(textBox1.Text);
             int b = Convert.ToInt32(textBox2.Text);
             double c = obj.Circle(a, b);
-            MessageBox.Show("Dots count = " + c);
+            double d = obj.Cvolume(a, b);
             
+            //Console.WriteLine("Dots count = " + c);
+            //double d = obj.Cvolume(obj.Circle(a, b));
+            MessageBox.Show("Dots count = " + c+"v = "+d);
+
             System.Drawing.Graphics gObj;
             gObj = this.CreateGraphics();
             Pen myPen = new Pen(System.Drawing.Color.Black, 5);
@@ -46,7 +50,7 @@ namespace home_page
             //gObj.DrawRectangle(myPen, rectangle);
             float[] dashPattern = new float[] { b, b };
             myPen.DashPattern = dashPattern;
-            gObj.DrawEllipse(myPen, 200, 200, a * 2, a * 2);
+            gObj.DrawEllipse(myPen, 200, 200, a * 2*10, a * 2*10);
             
         }
     }
