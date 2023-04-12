@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using home_page.Properties;
 using home_page.ServiceReference1;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 
 namespace home_page
@@ -31,7 +32,9 @@ namespace home_page
             int a = Convert.ToInt32(textBox1.Text);
             double c = obj.Square(a);
             double d = obj.Svolume(a);
-            MessageBox.Show("Dots count = " + c + "v = " + d);
+            //MessageBox.Show("Dots count = " + c + "v = " + d);
+            textBox2.Text = c.ToString();
+            textBox3.Text = d.ToString();
 
             System.Drawing.Graphics gObj;
             gObj = this.CreateGraphics();
@@ -41,7 +44,7 @@ namespace home_page
             //gObj.DrawRectangle(myPen, rectangle);
             float[] dashPattern = new float[] { 2, 2 };
             myPen.DashPattern = dashPattern;
-            gObj.DrawRectangle(myPen, 200, 200, a * 10, a * 10);
+            gObj.DrawRectangle(myPen, 50, 50, a * 10, a * 10);
         }
 
         private void square_Load(object sender, EventArgs e)

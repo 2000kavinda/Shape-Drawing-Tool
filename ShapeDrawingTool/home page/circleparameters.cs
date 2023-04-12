@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using home_page.Properties;
 using home_page.ServiceReference1;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace home_page
 {
@@ -34,13 +35,15 @@ namespace home_page
         {
 
             int a = Convert.ToInt32(textBox1.Text);
-            int b = Convert.ToInt32(textBox2.Text);
-            double c = obj.Circle(a, b);
-            double d = obj.Cvolume(a, b);
-            
+            double c = obj.Circle(a, 2);
+            double d = obj.Cvolume(a, 2);
+            textBox3.Text = c.ToString();
+            textBox2.Text = d.ToString();
+
+
             //Console.WriteLine("Dots count = " + c);
             //double d = obj.Cvolume(obj.Circle(a, b));
-            MessageBox.Show("Dots count = " + c+"v = "+d);
+            //MessageBox.Show("Dots count = " + c+"v = "+d);
 
             System.Drawing.Graphics gObj;
             gObj = this.CreateGraphics();
@@ -48,9 +51,9 @@ namespace home_page
             //myPen.DashStyle = System.Drawing.Drawing2D.DashStyle.Dot;
             //Rectangle rectangle = new Rectangle(0,0,100,100);
             //gObj.DrawRectangle(myPen, rectangle);
-            float[] dashPattern = new float[] { b, b };
+            float[] dashPattern = new float[] { 2, 2 };
             myPen.DashPattern = dashPattern;
-            gObj.DrawEllipse(myPen, 200, 200, a * 2*10, a * 2*10);
+            gObj.DrawEllipse(myPen, 50, 50, a * 2*10, a * 2*10);
             
         }
     }

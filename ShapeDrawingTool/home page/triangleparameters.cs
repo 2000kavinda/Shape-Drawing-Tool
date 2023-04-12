@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using home_page.Properties;
 using home_page.ServiceReference1;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace home_page
 {
@@ -38,8 +39,10 @@ namespace home_page
             int c = Convert.ToInt32(textBox3.Text);
             double k= obj.Triangle(a, b, c);
             double s= obj.Tvolume(a, b, c);
+            textBox4.Text = k.ToString();
+            textBox5.Text = s.ToString();
 
-            MessageBox.Show("Dots count = " + k + "v = " + s);
+            //MessageBox.Show("Dots count = " + k + "v = " + s);
             /*Point[] pnt = new Point[3];
             pnt[0].X = Convert.ToInt32(textBox1.Text);
             pnt[0].Y = Convert.ToInt32(textBox2.Text);

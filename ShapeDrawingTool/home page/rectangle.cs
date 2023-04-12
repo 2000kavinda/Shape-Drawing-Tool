@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using home_page.Properties;
 using home_page.ServiceReference1;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 
 namespace home_page
@@ -32,7 +33,9 @@ namespace home_page
             int b = Convert.ToInt32(textBox2.Text);
             double c = obj.Rectangle(a, b);
             double d = obj.Rvolume(a, b);
-            MessageBox.Show("Dots count = " + c + "v = " + d);
+            //MessageBox.Show("Dots count = " + c + "v = " + d);
+            textBox4.Text = c.ToString();
+            textBox3.Text = d.ToString();
 
             System.Drawing.Graphics gObj;
             gObj = this.CreateGraphics();
@@ -42,7 +45,7 @@ namespace home_page
             //gObj.DrawRectangle(myPen, rectangle);
             float[] dashPattern = new float[] { 2, 2 };
             myPen.DashPattern = dashPattern;
-            gObj.DrawRectangle(myPen, 200, 200, a*10, b*10);
+            gObj.DrawRectangle(myPen, 50, 50, a*10, b*10);
         }
     }
 }

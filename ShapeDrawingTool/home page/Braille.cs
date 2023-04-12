@@ -111,6 +111,11 @@ namespace home_page
             OutputTextBox.Text = obj.abc(inputText).ToString();
 
         }
+
+        private void OutputTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
