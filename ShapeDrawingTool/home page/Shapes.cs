@@ -98,18 +98,7 @@ namespace home_page
             this.Hide();
         }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-            if (panel6.Height == 190)
-            {
-                panel6.Height = 38;
-            }
-            else
-            {
-                panel6.Height = 190;
-            }
-        }
-
+        
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -140,6 +129,30 @@ namespace home_page
         {
             square sq = new square();
             sq.Show();
+            this.Hide();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button15_Click_1(object sender, EventArgs e)
+        {
+            if (panel7.Height == 190)
+            {
+                panel7.Height = 38;
+            }
+            else
+            {
+                panel7.Height = 190;
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            aboutUs f9 = new aboutUs();
+            f9.Show();
             this.Hide();
         }
     }

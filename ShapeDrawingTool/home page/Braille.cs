@@ -116,6 +116,25 @@ namespace home_page
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Help f11 = new Help();
+            f11.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            aboutUs f9 = new aboutUs();
+            f9.Show();
+            this.Hide();
+        }
     }
 }
 
