@@ -28,23 +28,6 @@ C:\Software architecture project\After creating text box\ShapeDrawingTool\home p
 C:\Software architecture project\After creating text box\ShapeDrawingTool\home page\obj\Debug\home page.csproj.CoreCompileInputs.cache
 C:\Software architecture project\After creating text box\ShapeDrawingTool\home page\obj\Debug\home page.exe
 C:\Software architecture project\After creating text box\ShapeDrawingTool\home page\obj\Debug\home page.pdb
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\bin\Debug\home page.exe.config
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\bin\Debug\home page.exe
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\bin\Debug\home page.pdb
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.csproj.AssemblyReference.cache
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.csproj.SuggestedBindingRedirects.cache
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.Braille.resources
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.Shapes.resources
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.Form1.resources
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.Properties.Resources.resources
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.csproj.GenerateResource.cache
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.csproj.CoreCompileInputs.cache
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.exe
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.pdb
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.circleparameters.resources
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.triangleparameters.resources
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.rectangle.resources
-C:\Users\Kavinda Udara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.square.resources
 C:\Users\Hiran welagedara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\bin\Debug\home page.exe.config
 C:\Users\Hiran welagedara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\bin\Debug\home page.exe
 C:\Users\Hiran welagedara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\bin\Debug\home page.pdb
@@ -64,3 +47,22 @@ C:\Users\Hiran welagedara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home 
 C:\Users\Hiran welagedara\Source\Repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.pdb
 C:\Users\Hiran welagedara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.aboutUs.resources
 C:\Users\Hiran welagedara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.Help.resources
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\bin\Debug\home page.exe.config
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\bin\Debug\home page.exe
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\bin\Debug\home page.pdb
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.csproj.AssemblyReference.cache
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.Help.resources
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.Braille.resources
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.circleparameters.resources
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.aboutUs.resources
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.rectangle.resources
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.Shapes.resources
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.Form1.resources
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.Properties.Resources.resources
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.square.resources
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.triangleparameters.resources
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.csproj.GenerateResource.cache
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.csproj.CoreCompileInputs.cache
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.exe
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.pdb
