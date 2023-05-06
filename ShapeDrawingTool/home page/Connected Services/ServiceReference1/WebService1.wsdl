@@ -136,6 +136,34 @@
           </s:sequence>
         </s:complexType>
       </s:element>
+      <s:element name="klm">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="inputText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="klmResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="klmResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="klmv">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="c" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="klmvResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="klmvResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
     </s:schema>
   </wsdl:types>
   <wsdl:message name="CircleSoapIn">
@@ -192,6 +220,18 @@
   <wsdl:message name="abcSoapOut">
     <wsdl:part name="parameters" element="tns:abcResponse" />
   </wsdl:message>
+  <wsdl:message name="klmSoapIn">
+    <wsdl:part name="parameters" element="tns:klm" />
+  </wsdl:message>
+  <wsdl:message name="klmSoapOut">
+    <wsdl:part name="parameters" element="tns:klmResponse" />
+  </wsdl:message>
+  <wsdl:message name="klmvSoapIn">
+    <wsdl:part name="parameters" element="tns:klmv" />
+  </wsdl:message>
+  <wsdl:message name="klmvSoapOut">
+    <wsdl:part name="parameters" element="tns:klmvResponse" />
+  </wsdl:message>
   <wsdl:portType name="WebService1Soap">
     <wsdl:operation name="Circle">
       <wsdl:input message="tns:CircleSoapIn" />
@@ -228,6 +268,14 @@
     <wsdl:operation name="abc">
       <wsdl:input message="tns:abcSoapIn" />
       <wsdl:output message="tns:abcSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="klm">
+      <wsdl:input message="tns:klmSoapIn" />
+      <wsdl:output message="tns:klmSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="klmv">
+      <wsdl:input message="tns:klmvSoapIn" />
+      <wsdl:output message="tns:klmvSoapOut" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
@@ -313,6 +361,24 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="klm">
+      <soap:operation soapAction="http://tempuri.org/klm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="klmv">
+      <soap:operation soapAction="http://tempuri.org/klmv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
@@ -390,6 +456,24 @@
     </wsdl:operation>
     <wsdl:operation name="abc">
       <soap12:operation soapAction="http://tempuri.org/abc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="klm">
+      <soap12:operation soapAction="http://tempuri.org/klm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="klmv">
+      <soap12:operation soapAction="http://tempuri.org/klmv" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>

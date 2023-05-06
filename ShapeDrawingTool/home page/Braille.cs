@@ -109,6 +109,8 @@ namespace home_page
 
             // Set the output text to the braille letters
             OutputTextBox.Text = obj.abc(inputText).ToString();
+            textBox1.Text = obj.klm(inputText).ToString();
+            textBox2.Text=obj.klmv(int.Parse(textBox1.Text)).ToString();    
 
         }
 

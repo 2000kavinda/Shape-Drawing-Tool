@@ -23,9 +23,9 @@ namespace ShapeDrawingTool
         {
             double pi = 3.14;
             double p = 2 * pi * r;
-            double c = p / g ;
+            double c = p / g;
             return Math.Round(c);
-            
+
         }
         [WebMethod]
         public double Cvolume(int r, int g)
@@ -33,15 +33,15 @@ namespace ShapeDrawingTool
             double pi = 3.14;
             double h = 0.05;
             double p = 2 * pi * r;
-            double c = p / g ;
-            double v = c*2 * pi * h * h * h / 3;
+            double c = p / g;
+            double v = c * 2 * pi * h * h * h / 3;
             return v;
-            
+
         }
         [WebMethod]
         public double Rectangle(int x, int y)
         {
-            double p = 2 * (x+y) ;
+            double p = 2 * (x + y);
             double c = p / 2;
             return Math.Round(c);
 
@@ -60,7 +60,7 @@ namespace ShapeDrawingTool
         [WebMethod]
         public double Square(int x)
         {
-            double p = 4*x;
+            double p = 4 * x;
             double c = p / 2;
             return Math.Round(c);
 
@@ -77,9 +77,9 @@ namespace ShapeDrawingTool
 
         }
         [WebMethod]
-        public double Triangle(int a, int b,int c)
+        public double Triangle(int a, int b, int c)
         {
-            double co = (a+b+c)/2;
+            double co = (a + b + c) / 2;
             return Math.Round(co);
 
         }
@@ -150,6 +150,71 @@ namespace ShapeDrawingTool
             }
             return k;
         }
+        [WebMethod]
+        public int klm(string inputText)
+        {
+            // Create a dictionary to map regular letters to their corresponding braille letters
+            Dictionary<char, int> brailleMap = new Dictionary<char, int>()
+            {
+                {'a', 3},
+                {'b', 2},
+                {'c', 2},
+                {'d', 3},
+                {'e', 2},
+                {'f', 3},
+                {'g', 4},
+                {'h', 3},
+                {'i', 2},
+                {'j', 3},
+                {'k', 2},
+                {'l', 3},
+                {'m', 3},
+                {'n', 4},
+                {'o', 3},
+                {'p', 4},
+                {'q', 5},
+                {'r', 4},
+                {'s', 3},
+                {'t', 4},
+                {'u', 3},
+                {'v', 4},
+                {'w', 4},
+                {'x', 4},
+                {'y', 5},
+                {'z', 4}
+            };
+            int t = 0;
+            // Create a StringBuilder to store the output braille letters
+            //StringBuilder outputBuilder = new StringBuilder();
 
+            // Convert each letter of the input text to its corresponding braille letter
+            foreach (char c in inputText)
+            {
+                // Check if the letter is in the dictionary
+                if (brailleMap.ContainsKey(c))
+                {
+                    // If the letter is in the dictionary, add its braille letter to the output
+                    //outputBuilder.Append(brailleMap[c]);
+                    t = t + brailleMap[c];
+                }
+                else
+                {
+                    // If the letter is not in the dictionary, add a space to the output
+                    //outputBuilder.Append(" ");
+                    t = t + 0;
+                }
+
+            }
+            return t;
+        }
+        [WebMethod]
+        public double klmv(int c)
+        {
+            double pi = 3.14;
+            double h = 0.05;
+            double v = c * 2 * pi * h * h * h / 3;
+            return v;
+
+        }
     }
 }

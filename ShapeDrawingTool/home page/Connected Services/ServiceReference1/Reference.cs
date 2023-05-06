@@ -69,6 +69,19 @@ namespace home_page.ServiceReference1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/abc", ReplyAction="*")]
         System.Threading.Tasks.Task<home_page.ServiceReference1.abcResponse> abcAsync(home_page.ServiceReference1.abcRequest request);
+        
+        // CODEGEN: Generating message contract since element name inputText from namespace http://tempuri.org/ is not marked nillable
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/klm", ReplyAction="*")]
+        home_page.ServiceReference1.klmResponse klm(home_page.ServiceReference1.klmRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/klm", ReplyAction="*")]
+        System.Threading.Tasks.Task<home_page.ServiceReference1.klmResponse> klmAsync(home_page.ServiceReference1.klmRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/klmv", ReplyAction="*")]
+        double klmv(int c);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/klmv", ReplyAction="*")]
+        System.Threading.Tasks.Task<double> klmvAsync(int c);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -136,6 +149,74 @@ namespace home_page.ServiceReference1 {
         
         public abcResponseBody(string abcResult) {
             this.abcResult = abcResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class klmRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="klm", Namespace="http://tempuri.org/", Order=0)]
+        public home_page.ServiceReference1.klmRequestBody Body;
+        
+        public klmRequest() {
+        }
+        
+        public klmRequest(home_page.ServiceReference1.klmRequestBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class klmRequestBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string inputText;
+        
+        public klmRequestBody() {
+        }
+        
+        public klmRequestBody(string inputText) {
+            this.inputText = inputText;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class klmResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="klmResponse", Namespace="http://tempuri.org/", Order=0)]
+        public home_page.ServiceReference1.klmResponseBody Body;
+        
+        public klmResponse() {
+        }
+        
+        public klmResponse(home_page.ServiceReference1.klmResponseBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class klmResponseBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
+        public int klmResult;
+        
+        public klmResponseBody() {
+        }
+        
+        public klmResponseBody(int klmResult) {
+            this.klmResult = klmResult;
         }
     }
     
@@ -253,6 +334,39 @@ namespace home_page.ServiceReference1 {
             inValue.Body = new home_page.ServiceReference1.abcRequestBody();
             inValue.Body.inputText = inputText;
             return ((home_page.ServiceReference1.WebService1Soap)(this)).abcAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        home_page.ServiceReference1.klmResponse home_page.ServiceReference1.WebService1Soap.klm(home_page.ServiceReference1.klmRequest request) {
+            return base.Channel.klm(request);
+        }
+        
+        public int klm(string inputText) {
+            home_page.ServiceReference1.klmRequest inValue = new home_page.ServiceReference1.klmRequest();
+            inValue.Body = new home_page.ServiceReference1.klmRequestBody();
+            inValue.Body.inputText = inputText;
+            home_page.ServiceReference1.klmResponse retVal = ((home_page.ServiceReference1.WebService1Soap)(this)).klm(inValue);
+            return retVal.Body.klmResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<home_page.ServiceReference1.klmResponse> home_page.ServiceReference1.WebService1Soap.klmAsync(home_page.ServiceReference1.klmRequest request) {
+            return base.Channel.klmAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<home_page.ServiceReference1.klmResponse> klmAsync(string inputText) {
+            home_page.ServiceReference1.klmRequest inValue = new home_page.ServiceReference1.klmRequest();
+            inValue.Body = new home_page.ServiceReference1.klmRequestBody();
+            inValue.Body.inputText = inputText;
+            return ((home_page.ServiceReference1.WebService1Soap)(this)).klmAsync(inValue);
+        }
+        
+        public double klmv(int c) {
+            return base.Channel.klmv(c);
+        }
+        
+        public System.Threading.Tasks.Task<double> klmvAsync(int c) {
+            return base.Channel.klmvAsync(c);
         }
     }
 }
