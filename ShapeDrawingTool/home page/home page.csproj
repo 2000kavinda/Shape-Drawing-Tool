@@ -77,6 +77,12 @@
     <Compile Include="aboutUs.Designer.cs">
       <DependentUpon>aboutUs.cs</DependentUpon>
     </Compile>
+    <Compile Include="loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loading.Designer.cs">
+      <DependentUpon>loading.cs</DependentUpon>
+    </Compile>
     <Compile Include="rectangle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +127,9 @@
     <EmbeddedResource Include="aboutUs.resx">
       <DependentUpon>aboutUs.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="loading.resx">
+      <DependentUpon>loading.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="rectangle.resx">
       <DependentUpon>rectangle.cs</DependentUpon>
     </EmbeddedResource>
@@ -146,10 +155,10 @@
     <EmbeddedResource Include="triangleparameters.resx">
       <DependentUpon>triangleparameters.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Connected Services\ServiceReference1\home_page.ServiceReference1.abcResponse.datasource">
+    <None Include="Connected Services\ServiceReference1\home_page.ServiceReference1.braileCResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ServiceReference1\home_page.ServiceReference1.klmResponse.datasource">
+    <None Include="Connected Services\ServiceReference1\home_page.ServiceReference1.braileResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ServiceReference1\WebService1.wsdl" />

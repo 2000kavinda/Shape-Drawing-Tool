@@ -66,3 +66,4 @@ C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home pag
 C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.csproj.CoreCompileInputs.cache
 C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.exe
 C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.pdb
+C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.loading.resources

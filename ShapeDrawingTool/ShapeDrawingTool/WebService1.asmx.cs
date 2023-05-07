@@ -89,12 +89,12 @@ namespace ShapeDrawingTool
             double pi = 3.14;
             double h = 0.05;
             double co = (a + b + c) / 2;
-            double v = c * 2 * pi * h * h * h / 3;
+            double v = co * 2 * pi * h * h * h / 3;
             return v;
 
         }
         [WebMethod]
-        public String abc(string inputText)
+        public String braile(string inputText)
         {
             // Create a dictionary to map regular letters to their corresponding braille letters
             Dictionary<char, string> brailleMap = new Dictionary<char, string>()
@@ -151,7 +151,7 @@ namespace ShapeDrawingTool
             return k;
         }
         [WebMethod]
-        public int klm(string inputText)
+        public int braileC(string inputText)
         {
             // Create a dictionary to map regular letters to their corresponding braille letters
             Dictionary<char, int> brailleMap = new Dictionary<char, int>()
@@ -208,7 +208,7 @@ namespace ShapeDrawingTool
             return t;
         }
         [WebMethod]
-        public double klmv(int c)
+        public double braileV(int c)
         {
             double pi = 3.14;
             double h = 0.05;

@@ -196,7 +196,7 @@
             this.panel1.Controls.Add(this.textBox4);
             this.panel1.Controls.Add(this.textBox3);
             this.panel1.Location = new System.Drawing.Point(592, -1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(323, 427);
             this.panel1.TabIndex = 11;
@@ -206,7 +206,7 @@
             this.panel6.BackColor = System.Drawing.Color.Black;
             this.panel6.Controls.Add(this.pictureBox1);
             this.panel6.Location = new System.Drawing.Point(0, 284);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(329, 143);
             this.panel6.TabIndex = 10;
@@ -216,7 +216,7 @@
             this.pictureBox1.BackgroundImage = global::home_page.Properties.Resources.Reqtangle;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Location = new System.Drawing.Point(27, -20);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(272, 183);
             this.pictureBox1.TabIndex = 0;
@@ -228,7 +228,7 @@
             this.panel5.Controls.Add(this.btnMaximize);
             this.panel5.Controls.Add(this.btnClose);
             this.panel5.Location = new System.Drawing.Point(1, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(320, 34);
             this.panel5.TabIndex = 9;
@@ -241,7 +241,7 @@
             this.buttonMinimize.FlatAppearance.BorderSize = 0;
             this.buttonMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMinimize.Location = new System.Drawing.Point(197, 4);
-            this.buttonMinimize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonMinimize.Margin = new System.Windows.Forms.Padding(4);
             this.buttonMinimize.Name = "buttonMinimize";
             this.buttonMinimize.Size = new System.Drawing.Size(28, 25);
             this.buttonMinimize.TabIndex = 2;
@@ -255,7 +255,7 @@
             this.btnMaximize.FlatAppearance.BorderSize = 0;
             this.btnMaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMaximize.Location = new System.Drawing.Point(233, 4);
-            this.btnMaximize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMaximize.Margin = new System.Windows.Forms.Padding(4);
             this.btnMaximize.Name = "btnMaximize";
             this.btnMaximize.Size = new System.Drawing.Size(28, 25);
             this.btnMaximize.TabIndex = 1;
@@ -269,7 +269,7 @@
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Location = new System.Drawing.Point(269, 4);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(28, 25);
             this.btnClose.TabIndex = 0;
@@ -287,7 +287,7 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Location = new System.Drawing.Point(0, 385);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(915, 177);
             this.panel2.TabIndex = 12;
@@ -298,7 +298,7 @@
             this.panel4.Controls.Add(this.label5);
             this.panel4.ForeColor = System.Drawing.Color.White;
             this.panel4.Location = new System.Drawing.Point(0, 1);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(593, 39);
             this.panel4.TabIndex = 10;
@@ -311,7 +311,7 @@
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = global::home_page.Properties.Resources.icons8_sort_left_22;
             this.button2.Location = new System.Drawing.Point(5, 126);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(125, 43);
             this.button2.TabIndex = 11;
@@ -325,7 +325,7 @@
             this.panel3.BackColor = System.Drawing.Color.DarkCyan;
             this.panel3.Controls.Add(this.label6);
             this.panel3.Location = new System.Drawing.Point(0, 340);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(593, 48);
             this.panel3.TabIndex = 9;
@@ -342,6 +342,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "rectangle";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "rectangle";
             this.Load += new System.EventHandler(this.rectangle_Load);
             this.panel1.ResumeLayout(false);

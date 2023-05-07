@@ -64,39 +64,39 @@ namespace home_page.ServiceReference1 {
         System.Threading.Tasks.Task<double> TvolumeAsync(int a, int b, int c);
         
         // CODEGEN: Generating message contract since element name inputText from namespace http://tempuri.org/ is not marked nillable
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/abc", ReplyAction="*")]
-        home_page.ServiceReference1.abcResponse abc(home_page.ServiceReference1.abcRequest request);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/braile", ReplyAction="*")]
+        home_page.ServiceReference1.braileResponse braile(home_page.ServiceReference1.braileRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/abc", ReplyAction="*")]
-        System.Threading.Tasks.Task<home_page.ServiceReference1.abcResponse> abcAsync(home_page.ServiceReference1.abcRequest request);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/braile", ReplyAction="*")]
+        System.Threading.Tasks.Task<home_page.ServiceReference1.braileResponse> braileAsync(home_page.ServiceReference1.braileRequest request);
         
         // CODEGEN: Generating message contract since element name inputText from namespace http://tempuri.org/ is not marked nillable
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/klm", ReplyAction="*")]
-        home_page.ServiceReference1.klmResponse klm(home_page.ServiceReference1.klmRequest request);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/braileC", ReplyAction="*")]
+        home_page.ServiceReference1.braileCResponse braileC(home_page.ServiceReference1.braileCRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/klm", ReplyAction="*")]
-        System.Threading.Tasks.Task<home_page.ServiceReference1.klmResponse> klmAsync(home_page.ServiceReference1.klmRequest request);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/braileC", ReplyAction="*")]
+        System.Threading.Tasks.Task<home_page.ServiceReference1.braileCResponse> braileCAsync(home_page.ServiceReference1.braileCRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/klmv", ReplyAction="*")]
-        double klmv(int c);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/braileV", ReplyAction="*")]
+        double braileV(int c);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/klmv", ReplyAction="*")]
-        System.Threading.Tasks.Task<double> klmvAsync(int c);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/braileV", ReplyAction="*")]
+        System.Threading.Tasks.Task<double> braileVAsync(int c);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class abcRequest {
+    public partial class braileRequest {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="abc", Namespace="http://tempuri.org/", Order=0)]
-        public home_page.ServiceReference1.abcRequestBody Body;
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="braile", Namespace="http://tempuri.org/", Order=0)]
+        public home_page.ServiceReference1.braileRequestBody Body;
         
-        public abcRequest() {
+        public braileRequest() {
         }
         
-        public abcRequest(home_page.ServiceReference1.abcRequestBody Body) {
+        public braileRequest(home_page.ServiceReference1.braileRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -105,15 +105,15 @@ namespace home_page.ServiceReference1 {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
-    public partial class abcRequestBody {
+    public partial class braileRequestBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
         public string inputText;
         
-        public abcRequestBody() {
+        public braileRequestBody() {
         }
         
-        public abcRequestBody(string inputText) {
+        public braileRequestBody(string inputText) {
             this.inputText = inputText;
         }
     }
@@ -122,15 +122,15 @@ namespace home_page.ServiceReference1 {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class abcResponse {
+    public partial class braileResponse {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="abcResponse", Namespace="http://tempuri.org/", Order=0)]
-        public home_page.ServiceReference1.abcResponseBody Body;
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="braileResponse", Namespace="http://tempuri.org/", Order=0)]
+        public home_page.ServiceReference1.braileResponseBody Body;
         
-        public abcResponse() {
+        public braileResponse() {
         }
         
-        public abcResponse(home_page.ServiceReference1.abcResponseBody Body) {
+        public braileResponse(home_page.ServiceReference1.braileResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -139,16 +139,16 @@ namespace home_page.ServiceReference1 {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
-    public partial class abcResponseBody {
+    public partial class braileResponseBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public string abcResult;
+        public string braileResult;
         
-        public abcResponseBody() {
+        public braileResponseBody() {
         }
         
-        public abcResponseBody(string abcResult) {
-            this.abcResult = abcResult;
+        public braileResponseBody(string braileResult) {
+            this.braileResult = braileResult;
         }
     }
     
@@ -156,15 +156,15 @@ namespace home_page.ServiceReference1 {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class klmRequest {
+    public partial class braileCRequest {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="klm", Namespace="http://tempuri.org/", Order=0)]
-        public home_page.ServiceReference1.klmRequestBody Body;
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="braileC", Namespace="http://tempuri.org/", Order=0)]
+        public home_page.ServiceReference1.braileCRequestBody Body;
         
-        public klmRequest() {
+        public braileCRequest() {
         }
         
-        public klmRequest(home_page.ServiceReference1.klmRequestBody Body) {
+        public braileCRequest(home_page.ServiceReference1.braileCRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -173,15 +173,15 @@ namespace home_page.ServiceReference1 {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
-    public partial class klmRequestBody {
+    public partial class braileCRequestBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
         public string inputText;
         
-        public klmRequestBody() {
+        public braileCRequestBody() {
         }
         
-        public klmRequestBody(string inputText) {
+        public braileCRequestBody(string inputText) {
             this.inputText = inputText;
         }
     }
@@ -190,15 +190,15 @@ namespace home_page.ServiceReference1 {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class klmResponse {
+    public partial class braileCResponse {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="klmResponse", Namespace="http://tempuri.org/", Order=0)]
-        public home_page.ServiceReference1.klmResponseBody Body;
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="braileCResponse", Namespace="http://tempuri.org/", Order=0)]
+        public home_page.ServiceReference1.braileCResponseBody Body;
         
-        public klmResponse() {
+        public braileCResponse() {
         }
         
-        public klmResponse(home_page.ServiceReference1.klmResponseBody Body) {
+        public braileCResponse(home_page.ServiceReference1.braileCResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -207,16 +207,16 @@ namespace home_page.ServiceReference1 {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
-    public partial class klmResponseBody {
+    public partial class braileCResponseBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
-        public int klmResult;
+        public int braileCResult;
         
-        public klmResponseBody() {
+        public braileCResponseBody() {
         }
         
-        public klmResponseBody(int klmResult) {
-            this.klmResult = klmResult;
+        public braileCResponseBody(int braileCResult) {
+            this.braileCResult = braileCResult;
         }
     }
     
@@ -312,61 +312,61 @@ namespace home_page.ServiceReference1 {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        home_page.ServiceReference1.abcResponse home_page.ServiceReference1.WebService1Soap.abc(home_page.ServiceReference1.abcRequest request) {
-            return base.Channel.abc(request);
+        home_page.ServiceReference1.braileResponse home_page.ServiceReference1.WebService1Soap.braile(home_page.ServiceReference1.braileRequest request) {
+            return base.Channel.braile(request);
         }
         
-        public string abc(string inputText) {
-            home_page.ServiceReference1.abcRequest inValue = new home_page.ServiceReference1.abcRequest();
-            inValue.Body = new home_page.ServiceReference1.abcRequestBody();
+        public string braile(string inputText) {
+            home_page.ServiceReference1.braileRequest inValue = new home_page.ServiceReference1.braileRequest();
+            inValue.Body = new home_page.ServiceReference1.braileRequestBody();
             inValue.Body.inputText = inputText;
-            home_page.ServiceReference1.abcResponse retVal = ((home_page.ServiceReference1.WebService1Soap)(this)).abc(inValue);
-            return retVal.Body.abcResult;
+            home_page.ServiceReference1.braileResponse retVal = ((home_page.ServiceReference1.WebService1Soap)(this)).braile(inValue);
+            return retVal.Body.braileResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<home_page.ServiceReference1.abcResponse> home_page.ServiceReference1.WebService1Soap.abcAsync(home_page.ServiceReference1.abcRequest request) {
-            return base.Channel.abcAsync(request);
+        System.Threading.Tasks.Task<home_page.ServiceReference1.braileResponse> home_page.ServiceReference1.WebService1Soap.braileAsync(home_page.ServiceReference1.braileRequest request) {
+            return base.Channel.braileAsync(request);
         }
         
-        public System.Threading.Tasks.Task<home_page.ServiceReference1.abcResponse> abcAsync(string inputText) {
-            home_page.ServiceReference1.abcRequest inValue = new home_page.ServiceReference1.abcRequest();
-            inValue.Body = new home_page.ServiceReference1.abcRequestBody();
+        public System.Threading.Tasks.Task<home_page.ServiceReference1.braileResponse> braileAsync(string inputText) {
+            home_page.ServiceReference1.braileRequest inValue = new home_page.ServiceReference1.braileRequest();
+            inValue.Body = new home_page.ServiceReference1.braileRequestBody();
             inValue.Body.inputText = inputText;
-            return ((home_page.ServiceReference1.WebService1Soap)(this)).abcAsync(inValue);
+            return ((home_page.ServiceReference1.WebService1Soap)(this)).braileAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        home_page.ServiceReference1.klmResponse home_page.ServiceReference1.WebService1Soap.klm(home_page.ServiceReference1.klmRequest request) {
-            return base.Channel.klm(request);
+        home_page.ServiceReference1.braileCResponse home_page.ServiceReference1.WebService1Soap.braileC(home_page.ServiceReference1.braileCRequest request) {
+            return base.Channel.braileC(request);
         }
         
-        public int klm(string inputText) {
-            home_page.ServiceReference1.klmRequest inValue = new home_page.ServiceReference1.klmRequest();
-            inValue.Body = new home_page.ServiceReference1.klmRequestBody();
+        public int braileC(string inputText) {
+            home_page.ServiceReference1.braileCRequest inValue = new home_page.ServiceReference1.braileCRequest();
+            inValue.Body = new home_page.ServiceReference1.braileCRequestBody();
             inValue.Body.inputText = inputText;
-            home_page.ServiceReference1.klmResponse retVal = ((home_page.ServiceReference1.WebService1Soap)(this)).klm(inValue);
-            return retVal.Body.klmResult;
+            home_page.ServiceReference1.braileCResponse retVal = ((home_page.ServiceReference1.WebService1Soap)(this)).braileC(inValue);
+            return retVal.Body.braileCResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<home_page.ServiceReference1.klmResponse> home_page.ServiceReference1.WebService1Soap.klmAsync(home_page.ServiceReference1.klmRequest request) {
-            return base.Channel.klmAsync(request);
+        System.Threading.Tasks.Task<home_page.ServiceReference1.braileCResponse> home_page.ServiceReference1.WebService1Soap.braileCAsync(home_page.ServiceReference1.braileCRequest request) {
+            return base.Channel.braileCAsync(request);
         }
         
-        public System.Threading.Tasks.Task<home_page.ServiceReference1.klmResponse> klmAsync(string inputText) {
-            home_page.ServiceReference1.klmRequest inValue = new home_page.ServiceReference1.klmRequest();
-            inValue.Body = new home_page.ServiceReference1.klmRequestBody();
+        public System.Threading.Tasks.Task<home_page.ServiceReference1.braileCResponse> braileCAsync(string inputText) {
+            home_page.ServiceReference1.braileCRequest inValue = new home_page.ServiceReference1.braileCRequest();
+            inValue.Body = new home_page.ServiceReference1.braileCRequestBody();
             inValue.Body.inputText = inputText;
-            return ((home_page.ServiceReference1.WebService1Soap)(this)).klmAsync(inValue);
+            return ((home_page.ServiceReference1.WebService1Soap)(this)).braileCAsync(inValue);
         }
         
-        public double klmv(int c) {
-            return base.Channel.klmv(c);
+        public double braileV(int c) {
+            return base.Channel.braileV(c);
         }
         
-        public System.Threading.Tasks.Task<double> klmvAsync(int c) {
-            return base.Channel.klmvAsync(c);
+        public System.Threading.Tasks.Task<double> braileVAsync(int c) {
+            return base.Channel.braileVAsync(c);
         }
     }
 }

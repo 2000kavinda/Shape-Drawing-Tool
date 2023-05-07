@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using home_page.Properties;
-using home_page.ServiceReference1;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Runtime.InteropServices;
+using home_page.ServiceReference1;
 
 namespace home_page
 {
