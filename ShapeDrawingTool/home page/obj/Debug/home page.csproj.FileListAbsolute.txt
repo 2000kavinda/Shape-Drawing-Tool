@@ -67,3 +67,23 @@ C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home pag
 C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.exe
 C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home page.pdb
 C:\Users\Kavinda Udara\source\repos\Shape-Drawing-Tool\ShapeDrawingTool\home page\obj\Debug\home_page.loading.resources
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\bin\Debug\home page.exe.config
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\bin\Debug\home page.exe
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\bin\Debug\home page.pdb
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home page.csproj.AssemblyReference.cache
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home page.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home_page.Help.resources
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home_page.Braille.resources
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home_page.circleparameters.resources
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home_page.aboutUs.resources
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home_page.loading.resources
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home_page.rectangle.resources
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home_page.Shapes.resources
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home_page.Form1.resources
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home_page.Properties.Resources.resources
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home_page.square.resources
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home_page.triangleparameters.resources
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home page.csproj.GenerateResource.cache
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home page.csproj.CoreCompileInputs.cache
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home page.exe
+C:\Users\Hiran welagedara\Downloads\Final one\ShapeDrawingTool\home page\obj\Debug\home page.pdb
